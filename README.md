@@ -1,16 +1,59 @@
-# React + Vite
+# Skill Gap Analyzer 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React (Vite) web application that helps users analyze their skills based on a selected job role and identify missing skills.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔥 Features
 
-## React Compiler
+- 🎯 Select job role using dropdown (no typing errors)
+- ✅ Choose your existing skills
+- 📊 Analyze skill gap instantly
+- 📌 View:
+  - Required Skills
+  - Your Skills
+  - Missing Skills
+- 📈 Visual representation using Pie Chart
+- ✨ Smooth animations using Framer Motion
+- 📱 Fully responsive (mobile-friendly)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- Bootstrap (UI styling)
+- Framer Motion (animations)
+- Chart.js (data visualization)
+- React Router DOM (navigation)
+
+---
+
+## 🌐 Live Demo
+
+👉 https://skill-gab-analyzer-app.vercel.app/
+
+*(Replace with your actual deployed link)*
+
+---
+
+## 📸 Screenshots
+
+*(Optional - you can add images later)*
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/abhishree3560-dev/skill-gab-analyzer
+
+# Navigate to project folder
+cd skill-gap-analyzer
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
